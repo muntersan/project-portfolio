@@ -1,0 +1,14 @@
+.header{
+    width: 100vw;
+    height: var(--menu-height);
+    display: flex;
+    justify-content: space-between;
+    
+    .branding{
+        margin: var(--section-gap-inner-small) 0 0 var(--section-gap-inner-small);
+    }
+
+    .mode-button{
+        margin: var(--section-gap-inner-small) var(--section-gap-inner-small) 0 0;
+    }
+}

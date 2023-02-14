@@ -11,7 +11,7 @@
   --font-size-6: calc( var(--font-size-5) * var(--font-scale));
   --color-light: #F7EFF1;
   --color-medium: #524E4E;
-  --color-dark: #393636;
+  --color-dark: #242121;
   --color-accent-1: #839CCC;
   --color-accent-2: #F5CA6A;
   --color-accent-3: #D16A72;
@@ -30,6 +30,7 @@
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-dark);
 }
 
 body {
@@ -42,7 +43,7 @@ img {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-sans);
+  font-family: var(--font-serif);
 }
 
 h1 {
@@ -70,6 +71,19 @@ h6 {
 }
 
 p, a, li {
-  line-height: 1.5;
+  line-height: 2;
   font-family: var(--font-serif);
+}
+
+.header {
+  width: 100vw;
+  height: var(--menu-height);
+  display: flex;
+  justify-content: space-between;
+}
+.header .branding {
+  margin: var(--section-gap-inner-small) 0 0 var(--section-gap-inner-small);
+}
+.header .mode-button {
+  margin: var(--section-gap-inner-small) var(--section-gap-inner-small) 0 0;
 }/*# sourceMappingURL=style.css.map */
