@@ -1,0 +1,23 @@
+.hero{
+    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    &__text{
+        
+        .line-1{
+            font-size: var(--font-size-6);
+            line-height: 1.5 ;
+            font-weight: 400;
+        }
+
+        .line-2{
+            font-size: 5.875rem;
+            font-weight: 400;
+            
+        }
+    }
+}

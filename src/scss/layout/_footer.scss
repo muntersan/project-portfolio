@@ -1,0 +1,43 @@
+.footer{
+    grid-column: inner;
+    display: grid;
+    grid-template-columns: var(--grid-content);
+    height: 500px;
+    align-items: center;
+
+    .contact-info{
+        grid-column: 2/9;
+
+        h2{
+
+            &::after{
+                content: '';
+                max-width: 580px;
+                height: 2px;
+                background-color: var(--color-secondary);
+                display: block;
+                
+            }
+
+        }
+
+        p{
+            max-width: 560px;
+        }
+        span{
+            font-weight: 700;
+        }
+    }
+
+    .footer-menu{
+        grid-column: 11/13;
+
+        .menu__list{
+            list-style: none;
+
+            li{
+                margin-bottom: 30px;
+            }
+        }
+    }
+}

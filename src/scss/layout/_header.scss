@@ -3,6 +3,7 @@
     height: var(--menu-height);
     display: flex;
     justify-content: space-between;
+    position: absolute;
     
     .branding{
         margin: var(--section-gap-inner-small) 0 0 var(--section-gap-inner-small);
@@ -10,5 +11,17 @@
 
     .mode-button{
         margin: var(--section-gap-inner-small) var(--section-gap-inner-small) 0 0;
+        border: none;
+        background-color: none;
+        cursor: pointer;
+
+        #Ellipse_23{
+            fill: var(--color-secondary);
+            stroke: var(--color-secondary);
+        }
+
+        #Subtraction_3{
+            fill: var(--color-primary);
+        }
     }
 }

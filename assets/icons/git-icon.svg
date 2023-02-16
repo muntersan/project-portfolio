@@ -1,0 +1,19 @@
+<svg id="Group_29" data-name="Group 29" xmlns="http://www.w3.org/2000/svg" width="80.207" height="55" viewBox="0 0 80.207 55">
+  <g id="Group_15" data-name="Group 15">
+    <g id="Rectangle_25" data-name="Rectangle 25" fill="none" stroke="#f7eff1" stroke-width="0.5">
+      <rect width="80.207" height="55" rx="5" stroke="none"/>
+      <rect x="0.25" y="0.25" width="79.707" height="54.5" rx="4.75" fill="none"/>
+    </g>
+    <path id="Path_10" data-name="Path 10" d="M0,0,79.279-.04" transform="translate(0.5 5.5)" fill="none" stroke="#f7eff1" stroke-width="0.5"/>
+    <circle id="Ellipse_12" data-name="Ellipse 12" cx="1" cy="1" r="1" transform="translate(4 2)" fill="#fff"/>
+    <circle id="Ellipse_13" data-name="Ellipse 13" cx="1" cy="1" r="1" transform="translate(7 2)" fill="#fff"/>
+    <circle id="Ellipse_14" data-name="Ellipse 14" cx="1" cy="1" r="1" transform="translate(10 2)" fill="#fff"/>
+  </g>
+  <g id="Group_42" data-name="Group 42" transform="translate(12.23 20.5)">
+    <line id="Line_4" data-name="Line 4" x2="39" transform="translate(0 14)" fill="none" stroke="#f7eff1" stroke-width="0.5"/>
+    <line id="Line_5" data-name="Line 5" x2="38.604" transform="translate(0 18)" fill="none" stroke="#f7eff1" stroke-width="0.5"/>
+    <line id="Line_11" data-name="Line 11" x2="55.747" fill="none" stroke="#f7eff1" stroke-width="0.5"/>
+    <line id="Line_8" data-name="Line 8" x2="55.747" transform="translate(0 5)" fill="none" stroke="#f7eff1" stroke-width="0.5"/>
+    <line id="Line_9" data-name="Line 9" x2="55.747" transform="translate(0 9)" fill="none" stroke="#f7eff1" stroke-width="0.5"/>
+  </g>
+</svg>
