@@ -7,21 +7,31 @@
     
     .branding{
         margin: var(--section-gap-inner-small) 0 0 var(--section-gap-inner-small);
+
+        #Path_7{
+            fill: var(--color-medium);
+        }
+        #Path_8{
+            fill: var(--color-secondary);
+        }
     }
 
     .mode-button{
         margin: var(--section-gap-inner-small) var(--section-gap-inner-small) 0 0;
-        border: none;
-        background-color: none;
+       
         cursor: pointer;
 
-        #Ellipse_23{
-            fill: var(--color-secondary);
-            stroke: var(--color-secondary);
+        #Ellipse_32{
+            fill: var(--color-secondary); 
         }
 
-        #Subtraction_3{
-            fill: var(--color-primary);
+        #Subtraction_5{
+            fill: var(--color-primary); 
         }
     }
+}
+
+#checkbox{
+    visibility: hidden;
+
 }

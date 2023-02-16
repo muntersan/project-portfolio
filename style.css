@@ -26,6 +26,12 @@
   --grid-content: repeat(12, 1fr);
 }
 
+[data-theme=light] {
+  --color-primary: #F4F4F4;
+  --color-medium: #D3D3D3;
+  --color-secondary: #242121;
+}
+
 * {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
@@ -132,18 +138,25 @@ a:hover {
 .header .branding {
   margin: var(--section-gap-inner-small) 0 0 var(--section-gap-inner-small);
 }
+.header .branding #Path_7 {
+  fill: var(--color-medium);
+}
+.header .branding #Path_8 {
+  fill: var(--color-secondary);
+}
 .header .mode-button {
   margin: var(--section-gap-inner-small) var(--section-gap-inner-small) 0 0;
-  border: none;
-  background-color: none;
   cursor: pointer;
 }
-.header .mode-button #Ellipse_23 {
+.header .mode-button #Ellipse_32 {
   fill: var(--color-secondary);
-  stroke: var(--color-secondary);
 }
-.header .mode-button #Subtraction_3 {
+.header .mode-button #Subtraction_5 {
   fill: var(--color-primary);
+}
+
+#checkbox {
+  visibility: hidden;
 }
 
 .container__inner {
