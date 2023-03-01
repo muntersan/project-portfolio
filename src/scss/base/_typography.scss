@@ -1,21 +1,59 @@
+@use '../tools/responsive';
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-serif);
     color: var(--color-secondary);
     margin: 0 0 2rem 0;
 
+
 }
 
 h1 {
     font-size: var(--font-size-6);
+
+    @include responsive.max(1200px){
+        font-size: var(--font-size-4);
+    }
+
+    @include responsive.max(800px){
+        font-size: var(--font-size-3);
+    }
+
+    @include responsive.max(400px){
+        font-size: var(--font-size-2);
+    }
+   
+   
 }
 
 h2 {
     font-size: var(--font-size-5);
+    @include responsive.max(1200px){
+        font-size: var(--font-size-3);
+    }
+
+    @include responsive.max(800px){
+        font-size: var(--font-size-2);
+    }
+
+    @include responsive.max(400px){
+        font-size: var(--font-size-1);
+    }
+  
 }
 
 h3 {
     font-size: var(--font-size-4);
+    @include responsive.max(1200px){
+        font-size: var(--font-size-3);
+    }
+
+    @include responsive.max(800px){
+        font-size: var(--font-size-2);
+    }
+    @include responsive.max(400px){
+        font-size: var(--font-size-1);
+    }
 }
 
 h4 {
@@ -35,6 +73,15 @@ p, li {
     font-family: var(--font-serif);
     color: var(--color-secondary);
     font-size: var(--font-size-2);
+
+    @include responsive.max(1100px){
+        font-size: var(--font-size-1);
+    }
+
+    @include responsive.max(400px){
+        font-size: 14px;
+    }
+  
 }
 
 a{

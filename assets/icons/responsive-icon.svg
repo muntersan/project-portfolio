@@ -1,21 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="88" height="58" viewBox="0 0 88 58">
-  <g id="Group_19" data-name="Group 19" transform="translate(0.241)">
-    <g id="Group_17" data-name="Group 17">
-      <g id="Rectangle_25" data-name="Rectangle 25" transform="translate(-0.241)" fill="none" stroke="#f7eff1" stroke-width="0.5">
-        <rect width="80" height="56" rx="5" stroke="none"/>
-        <rect x="0.25" y="0.25" width="79.5" height="55.5" rx="4.75" fill="none"/>
-      </g>
-      <line id="Line_3" data-name="Line 3" x2="79" transform="translate(0.259 5.5)" fill="none" stroke="#f7eff1" stroke-width="0.5"/>
-      <circle id="Ellipse_12" data-name="Ellipse 12" cx="1" cy="1" r="1" transform="translate(3.759 2)" fill="#fff"/>
-      <circle id="Ellipse_13" data-name="Ellipse 13" cx="1" cy="1" r="1" transform="translate(6.759 2)" fill="#fff"/>
-      <circle id="Ellipse_14" data-name="Ellipse 14" cx="1" cy="1" r="1" transform="translate(9.759 2)" fill="#fff"/>
-    </g>
-    <g id="Group_18" data-name="Group 18" transform="translate(64 16)">
-      <g id="Rectangle_32" data-name="Rectangle 32" transform="translate(-0.241)" fill="#242121" stroke="#f7eff1" stroke-width="0.5">
-        <rect width="24" height="42" rx="5" stroke="none"/>
-        <rect x="0.25" y="0.25" width="23.5" height="41.5" rx="4.75" fill="none"/>
-      </g>
-      <circle id="Ellipse_16" data-name="Ellipse 16" cx="1" cy="1" r="1" transform="translate(10.759 38)" fill="#f7eff1"/>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="89.202" height="59.924" viewBox="0 0 89.202 59.924">
+  <g id="Group_1670" data-name="Group 1670" transform="translate(-948.023 -2629.928)">
+    <path id="Path_61" data-name="Path 61" d="M128.7,311.928H58.347a5.33,5.33,0,0,1-5.324-5.324V260.252a5.33,5.33,0,0,1,5.324-5.324H128.7a5.33,5.33,0,0,1,5.324,5.324V306.6a5.33,5.33,0,0,1-5.324,5.324m-70.353-56.5a4.829,4.829,0,0,0-4.824,4.824V306.6a4.829,4.829,0,0,0,4.824,4.824H128.7a4.829,4.829,0,0,0,4.824-4.824V260.252a4.829,4.829,0,0,0-4.824-4.824Z" transform="translate(895 2375)" fill="#161615"/>
+    <rect id="Rectangle_695" data-name="Rectangle 695" width="80.5" height="0.5" transform="translate(948.274 2635.002)" fill="#161615"/>
+    <rect id="Rectangle_696" data-name="Rectangle 696" width="80.5" height="0.5" transform="translate(948.274 2635.002)" fill="#161615"/>
+    <path id="Path_62" data-name="Path 62" d="M128.7,311.928H58.347a5.33,5.33,0,0,1-5.324-5.324V260.252a5.33,5.33,0,0,1,5.324-5.324H128.7a5.33,5.33,0,0,1,5.324,5.324V306.6a5.33,5.33,0,0,1-5.324,5.324m-70.353-56.5a4.829,4.829,0,0,0-4.824,4.824V306.6a4.829,4.829,0,0,0,4.824,4.824H128.7a4.829,4.829,0,0,0,4.824-4.824V260.252a4.829,4.829,0,0,0-4.824-4.824Z" transform="translate(895 2375)" fill="#161615"/>
+    <path id="Path_63" data-name="Path 63" d="M57.491,257.753a.5.5,0,1,1-.5-.5.5.5,0,0,1,.5.5" transform="translate(895 2375)" fill="#161615"/>
+    <path id="Path_64" data-name="Path 64" d="M60.435,257.753a.5.5,0,1,1-.5-.5.5.5,0,0,1,.5.5" transform="translate(895 2375)" fill="#161615"/>
+    <path id="Path_65" data-name="Path 65" d="M63.379,257.753a.5.5,0,1,1-.5-.5.5.5,0,0,1,.5.5" transform="translate(895 2375)" fill="#161615"/>
+    <path id="Path_66" data-name="Path 66" d="M137.083,314.6h-9.716a4.908,4.908,0,0,1-4.893-4.893v-26.1a4.907,4.907,0,0,1,4.893-4.892h9.716a4.907,4.907,0,0,1,4.893,4.892v26.1a4.908,4.908,0,0,1-4.893,4.893" transform="translate(895 2375)" fill="#fff"/>
+    <path id="Path_67" data-name="Path 67" d="M137.083,314.852h-9.715a5.149,5.149,0,0,1-5.144-5.143v-26.1a5.149,5.149,0,0,1,5.144-5.143h9.715a5.148,5.148,0,0,1,5.142,5.143v26.1a5.148,5.148,0,0,1-5.142,5.143m-9.715-35.886a4.649,4.649,0,0,0-4.644,4.643v26.1a4.649,4.649,0,0,0,4.644,4.643h9.715a4.648,4.648,0,0,0,4.642-4.643v-26.1a4.648,4.648,0,0,0-4.642-4.643Z" transform="translate(895 2375)" fill="#161615"/>
+    <path id="Path_68" data-name="Path 68" d="M132.4,312.928h-.351a.827.827,0,0,1-.824-.825v-.35a.827.827,0,0,1,.824-.825h.351a.827.827,0,0,1,.825.825v.35a.827.827,0,0,1-.825.825" transform="translate(895 2375)" fill="#161615"/>
   </g>
 </svg>

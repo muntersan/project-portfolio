@@ -1,23 +1,69 @@
+@use '../../tools/responsive';
+
+
+
 .hero{
     
     height: 100vh;
+    min-height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
     
 
     &__text{
+        text-align: center;
         
+
         .line-1{
-            font-size: var(--font-size-6);
+            //font-size: var(--font-size-6);
             line-height: 1.5 ;
             font-weight: 400;
+
+            font-size: 3.1vw;
+            @include responsive.max(500px){
+            font-size: 3.6vw;
+            }
         }
 
         .line-2{
-            font-size: 5.875rem;
+            //font-size: 5.875rem;
             font-weight: 400;
-            
+            font-size: 6vw;
+            @include responsive.max(500px){
+            font-size: 7vw;
+            }
+        }
+
+       
+
+    
+      
+    }
+
+    &-links{
+        margin-top: 4rem;
+        font-size: var(--font-size-4);
+        text-align: center;
+
+        @include responsive.max(650px){
+            font-size: var(--font-size-1);
+        }
+       
+        .behance{
+            margin-right: 5rem;
+
+            @include responsive.max(500px){
+                margin-right: 2rem;
+            }
+
+        }
+
+        a{
+            color: var(--color-accent-2); 
+            &:hover{
+                color: var(--color-secondary);
+            }
         }
     }
 }

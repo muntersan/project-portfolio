@@ -3,10 +3,16 @@
     height: var(--menu-height);
     display: flex;
     justify-content: space-between;
-    position: absolute;
+    position: fixed;
+    align-items: center;
+
     
     .branding{
-        margin: var(--section-gap-inner-small) 0 0 var(--section-gap-inner-small);
+        margin: 0 0 0 var(--section-gap-inner-small);
+       
+        svg{
+            width: 65px;
+        }
 
         #Path_7{
             fill: var(--color-medium);
@@ -17,9 +23,13 @@
     }
 
     .mode-button{
-        margin: var(--section-gap-inner-small) var(--section-gap-inner-small) 0 0;
+        margin: 0 var(--section-gap-inner-small) 0 0;
        
         cursor: pointer;
+
+        svg{
+            cursor: pointer;
+        }
 
         #Ellipse_32{
             fill: var(--color-secondary); 
@@ -35,3 +45,5 @@
     visibility: hidden;
 
 }
+
+

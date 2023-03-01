@@ -1,11 +1,29 @@
-<svg id="Group_11" data-name="Group 11" xmlns="http://www.w3.org/2000/svg" width="80" height="56" viewBox="0 0 80 56">
-  <g id="Rectangle_23" data-name="Rectangle 23" fill="none" stroke="#f7eff1" stroke-width="0.5">
-    <rect width="80" height="56" rx="5" stroke="none"/>
-    <rect x="0.25" y="0.25" width="79.5" height="55.5" rx="4.75" fill="none"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="81.001" height="57" viewBox="0 0 81.001 57">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_675" data-name="Rectangle 675" width="80.501" height="0.5" transform="translate(7.169 14.992)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1664" data-name="Group 1664" transform="translate(-901.919 -2384.918)">
+    <path id="Path_13" data-name="Path 13" d="M41.1,43.215l-6.408-3.672v-.468L41.1,35.4l.216.36-6.229,3.6v-.108l6.229,3.6Z" transform="translate(895 2376)" fill="#161615"/>
+    <path id="Path_14" data-name="Path 14" d="M43.675,45.573l7.093-14.31H51.2l-7.091,14.31Z" transform="translate(895 2376)" fill="#161615"/>
+    <path id="Path_15" data-name="Path 15" d="M53.736,43.215l-.216-.36,6.229-3.6v.108l-6.229-3.6.216-.36,6.408,3.672v.468Z" transform="translate(895 2376)" fill="#161615"/>
+    <g id="Group_1663" data-name="Group 1663" transform="translate(895 2375)">
+      <g id="Group_1662" data-name="Group 1662">
+        <g id="Group_1671" data-name="Group 1671">
+          <g id="Group_1660" data-name="Group 1660">
+            <g id="Group_1659" data-name="Group 1659">
+              <g id="Group_1658" data-name="Group 1658" clip-path="url(#clip-path)">
+                <rect id="Rectangle_674" data-name="Rectangle 674" width="80.5" height="0.5" transform="translate(7.169 14.992)" fill="#161615"/>
+              </g>
+            </g>
+          </g>
+          <path id="Path_16" data-name="Path 16" d="M82.6,66.918H12.243a5.329,5.329,0,0,1-5.324-5.324V15.242a5.329,5.329,0,0,1,5.324-5.324H82.6a5.33,5.33,0,0,1,5.325,5.324V61.594A5.33,5.33,0,0,1,82.6,66.918m-70.352-56.5a4.829,4.829,0,0,0-4.824,4.824V61.594a4.829,4.829,0,0,0,4.824,4.824H82.6a4.83,4.83,0,0,0,4.825-4.824V15.242A4.83,4.83,0,0,0,82.6,10.418Z" fill="#161615"/>
+        </g>
+      </g>
+    </g>
+    <path id="Path_17" data-name="Path 17" d="M11.387,12.744a.5.5,0,1,1-.5-.5.5.5,0,0,1,.5.5" transform="translate(895 2375)" fill="#161615"/>
+    <path id="Path_18" data-name="Path 18" d="M14.331,12.744a.5.5,0,1,1-.5-.5.5.5,0,0,1,.5.5" transform="translate(895 2375)" fill="#161615"/>
+    <path id="Path_19" data-name="Path 19" d="M17.275,12.744a.5.5,0,1,1-.5-.5.5.5,0,0,1,.5.5" transform="translate(895 2375)" fill="#161615"/>
   </g>
-  <line id="Line_1" data-name="Line 1" x2="79" transform="translate(0.5 5.5)" fill="none" stroke="#f7eff1" stroke-width="0.5"/>
-  <circle id="Ellipse_6" data-name="Ellipse 6" cx="1" cy="1" r="1" transform="translate(4 2)" fill="#fff"/>
-  <circle id="Ellipse_7" data-name="Ellipse 7" cx="1" cy="1" r="1" transform="translate(7 2)" fill="#fff"/>
-  <circle id="Ellipse_8" data-name="Ellipse 8" cx="1" cy="1" r="1" transform="translate(10 2)" fill="#fff"/>
-  <text id="_" data-name="&lt; / &gt;" transform="translate(22 33)" fill="#f7eff1" font-size="18" font-family="Lexend" font-weight="200"><tspan x="0" y="0">&lt; / &gt;</tspan></text>
 </svg>

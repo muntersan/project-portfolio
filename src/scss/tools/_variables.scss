@@ -1,3 +1,5 @@
+@use '../tools/responsive';
+
 :root {
 
     //fonts
@@ -36,6 +38,9 @@
     //page settings
     --page-width: 72rem;
     --page-padding: 30px;
+    @include responsive.max(500px){
+        --page-padding: 10px;
+    }
 
 
     //menu settings
@@ -54,6 +59,10 @@
     --color-primary: #F4F4F4;
     --color-medium: #D3D3D3;
     --color-secondary: #242121; 
+
+    --color-accent-1: #839CCC;
+    --color-accent-3:  #F5CA6A;
+    --color-accent-2: #D16A72;
    
  
  }

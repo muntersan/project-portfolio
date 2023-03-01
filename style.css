@@ -25,11 +25,19 @@
   --grid-container: minmax(var(--page-padding), 1fr) [inner-start] minmax(0,var(--page-width)) [inner-end] minmax(var(--page-padding), 1fr);
   --grid-content: repeat(12, 1fr);
 }
+@media screen and (max-width: 500px) {
+  :root {
+    --page-padding: 10px;
+  }
+}
 
 [data-theme=light] {
   --color-primary: #F4F4F4;
   --color-medium: #D3D3D3;
   --color-secondary: #242121;
+  --color-accent-1: #839CCC;
+  --color-accent-3: #F5CA6A;
+  --color-accent-2: #D16A72;
 }
 
 * {
@@ -57,13 +65,58 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: var(--font-size-6);
 }
+@media screen and (max-width: 1200px) {
+  h1 {
+    font-size: var(--font-size-4);
+  }
+}
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: var(--font-size-3);
+  }
+}
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: var(--font-size-2);
+  }
+}
 
 h2 {
   font-size: var(--font-size-5);
 }
+@media screen and (max-width: 1200px) {
+  h2 {
+    font-size: var(--font-size-3);
+  }
+}
+@media screen and (max-width: 800px) {
+  h2 {
+    font-size: var(--font-size-2);
+  }
+}
+@media screen and (max-width: 400px) {
+  h2 {
+    font-size: var(--font-size-1);
+  }
+}
 
 h3 {
   font-size: var(--font-size-4);
+}
+@media screen and (max-width: 1200px) {
+  h3 {
+    font-size: var(--font-size-3);
+  }
+}
+@media screen and (max-width: 800px) {
+  h3 {
+    font-size: var(--font-size-2);
+  }
+}
+@media screen and (max-width: 400px) {
+  h3 {
+    font-size: var(--font-size-1);
+  }
 }
 
 h4 {
@@ -84,6 +137,16 @@ p, li {
   color: var(--color-secondary);
   font-size: var(--font-size-2);
 }
+@media screen and (max-width: 1100px) {
+  p, li {
+    font-size: var(--font-size-1);
+  }
+}
+@media screen and (max-width: 400px) {
+  p, li {
+    font-size: 14px;
+  }
+}
 
 a {
   color: var(--color-accent-1);
@@ -102,8 +165,28 @@ a:hover {
   height: 500px;
   align-items: center;
 }
+@media screen and (max-width: 710px) {
+  .footer {
+    grid-template-rows: repeat(2, 180px);
+  }
+}
 .footer .contact-info {
   grid-column: 2/9;
+}
+@media screen and (max-width: 710px) {
+  .footer .contact-info {
+    grid-column: 2/12;
+  }
+}
+@media screen and (max-width: 510px) {
+  .footer .contact-info h2 {
+    font-size: 4.8vw;
+  }
+}
+@media screen and (max-width: 400px) {
+  .footer .contact-info h2 {
+    font-size: 5vw;
+  }
 }
 .footer .contact-info h2::after {
   content: "";
@@ -112,20 +195,60 @@ a:hover {
   background-color: var(--color-secondary);
   display: block;
 }
+@media screen and (max-width: 1200px) {
+  .footer .contact-info h2::after {
+    max-width: 370px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .footer .contact-info h2::after {
+    max-width: 297px;
+  }
+}
+@media screen and (max-width: 510px) {
+  .footer .contact-info h2::after {
+    max-width: 72vw;
+  }
+}
+@media screen and (max-width: 400px) {
+  .footer .contact-info h2::after {
+    max-width: 75vw;
+  }
+}
 .footer .contact-info p {
-  max-width: 560px;
+  max-width: 460px;
+  font-size: 16px;
+}
+@media screen and (max-width: 400px) {
+  .footer .contact-info p {
+    font-size: 12px;
+  }
 }
 .footer .contact-info span {
   font-weight: 700;
 }
 .footer .footer-menu {
-  grid-column: 11/13;
+  grid-column: 10/12;
+}
+@media screen and (max-width: 710px) {
+  .footer .footer-menu {
+    grid-column: 2/12;
+  }
 }
 .footer .footer-menu .menu__list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .footer .footer-menu .menu__list li {
   margin-bottom: 30px;
+}
+@media screen and (max-width: 710px) {
+  .footer .footer-menu .menu__list li {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 0;
+  }
 }
 
 .header {
@@ -133,10 +256,14 @@ a:hover {
   height: var(--menu-height);
   display: flex;
   justify-content: space-between;
-  position: absolute;
+  position: fixed;
+  align-items: center;
 }
 .header .branding {
-  margin: var(--section-gap-inner-small) 0 0 var(--section-gap-inner-small);
+  margin: 0 0 0 var(--section-gap-inner-small);
+}
+.header .branding svg {
+  width: 65px;
 }
 .header .branding #Path_7 {
   fill: var(--color-medium);
@@ -145,7 +272,10 @@ a:hover {
   fill: var(--color-secondary);
 }
 .header .mode-button {
-  margin: var(--section-gap-inner-small) var(--section-gap-inner-small) 0 0;
+  margin: 0 var(--section-gap-inner-small) 0 0;
+  cursor: pointer;
+}
+.header .mode-button svg {
   cursor: pointer;
 }
 .header .mode-button #Ellipse_32 {
@@ -185,20 +315,49 @@ a:hover {
   margin-right: var(--menu-height);
 }
 .about__skills {
+  grid-column: 1/13;
   display: flex;
   justify-content: space-between;
-  grid-column: 2/12;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 970px) {
+  .about__skills {
+    justify-content: center;
+  }
 }
 .about__skills .skill {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 15px;
+  width: 100px;
+}
+@media screen and (max-width: 400px) {
+  .about__skills .skill svg {
+    width: 61.001px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .about__skills .skill #skill-res {
+    width: 69.202px;
+  }
 }
 .about__skills .skill p {
-  width: 100px;
+  max-width: 100px;
   font-size: 12px;
   text-align: center;
   color: var(--color-accent-2);
+}
+@media screen and (max-width: 400px) {
+  .about__skills .skill p {
+    font-size: 10px;
+  }
+}
+.about__skills .skill svg {
+  fill: var(--color-secondary);
+}
+.about__skills .skill #Path_66 {
+  fill: var(--color-primary);
 }
 
 .copyright {
@@ -211,18 +370,56 @@ a:hover {
 
 .hero {
   height: 100vh;
+  min-height: 600px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+.hero__text {
+  text-align: center;
+}
 .hero__text .line-1 {
-  font-size: var(--font-size-6);
   line-height: 1.5;
   font-weight: 400;
+  font-size: 3.1vw;
+}
+@media screen and (max-width: 500px) {
+  .hero__text .line-1 {
+    font-size: 3.6vw;
+  }
 }
 .hero__text .line-2 {
-  font-size: 5.875rem;
   font-weight: 400;
+  font-size: 6vw;
+}
+@media screen and (max-width: 500px) {
+  .hero__text .line-2 {
+    font-size: 7vw;
+  }
+}
+.hero-links {
+  margin-top: 4rem;
+  font-size: var(--font-size-4);
+  text-align: center;
+}
+@media screen and (max-width: 650px) {
+  .hero-links {
+    font-size: var(--font-size-1);
+  }
+}
+.hero-links .behance {
+  margin-right: 5rem;
+}
+@media screen and (max-width: 500px) {
+  .hero-links .behance {
+    margin-right: 2rem;
+  }
+}
+.hero-links a {
+  color: var(--color-accent-2);
+}
+.hero-links a:hover {
+  color: var(--color-secondary);
 }
 
 /*# sourceMappingURL=style.css.map */
