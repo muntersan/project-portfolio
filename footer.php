@@ -8,14 +8,27 @@
 </div>
 
 <!-- menu -->
-<nav class="footer-menu">
+<!-- <nav class="footer-menu">
     <ul class="menu__list">
         <li class="menu__item"><a href="">Contact</a></li>
         <li class="menu__item"><a href="https://www.behance.net/juliamunters" target=”_blank”>Behance</a></li>
         <li class="menu__item"><a href="">LinkedIn</a></li>
         <li class="menu__item"><a href="https://github.com/muntersan" target=”_blank”>GitHub</a></li>
     </ul>
-</nav>
+</nav> -->
+
+<?php 
+            $args = [
+                'theme_location'    =>  'footer_menu',
+                'container'         =>  'nav',
+                'container_class'   =>  'footer-menu',
+                'menu_class'        =>  'menu__list',
+
+            ];
+
+            wp_nav_menu( $args );
+        
+        ?>
 
 </footer>
 
